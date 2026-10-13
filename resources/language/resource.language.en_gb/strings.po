@@ -1,0 +1,205 @@
+# Kodi Media Center language file
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: en_GB\n"
+
+msgctxt "#30000"
+msgid "Vinylrip"
+msgstr ""
+
+msgctxt "#30001"
+msgid "Record a disc"
+msgstr ""
+
+msgctxt "#30002"
+msgid "Record a multi-disc album"
+msgstr ""
+
+msgctxt "#30003"
+msgid "Listen to the disc"
+msgstr ""
+
+msgctxt "#30004"
+msgid "Recording quality"
+msgstr ""
+
+msgctxt "#30005"
+msgid "Cancel"
+msgstr ""
+
+msgctxt "#30006"
+msgid "Number of discs"
+msgstr ""
+
+msgctxt "#30007"
+msgid "Start recording side {0}"
+msgstr ""
+
+msgctxt "#30008"
+msgid "Finish side {0}"
+msgstr ""
+
+msgctxt "#30009"
+msgid "Listen while recording"
+msgstr ""
+
+msgctxt "#30010"
+msgid "Stop listening"
+msgstr ""
+
+msgctxt "#30011"
+msgid "Next side"
+msgstr ""
+
+msgctxt "#30012"
+msgid "Disc finished"
+msgstr ""
+
+msgctxt "#30013"
+msgid "Delete what was recorded?"
+msgstr ""
+
+msgctxt "#30014"
+msgid "Turntable detected: {0}"
+msgstr ""
+
+msgctxt "#30015"
+msgid "What do you want to do?"
+msgstr ""
+
+msgctxt "#30016"
+msgid "Error"
+msgstr ""
+
+msgctxt "#30017"
+msgid "You can finish the work manually. The raw recordings are kept in: {0}"
+msgstr ""
+
+msgctxt "#30018"
+msgid "Choose the album"
+msgstr ""
+
+msgctxt "#30019"
+msgid "None of these"
+msgstr ""
+
+msgctxt "#30020"
+msgid "Done: {0}"
+msgstr ""
+
+msgctxt "#30021"
+msgid "No turntable detected"
+msgstr ""
+
+msgctxt "#30022"
+msgid "Processing…"
+msgstr ""
+
+msgctxt "#30023"
+msgid "vinylrip engine not found ({0}). Install it: pip install vinylrip"
+msgstr ""
+
+msgctxt "#30024"
+msgid "Sides to check: {0}"
+msgstr ""
+
+msgctxt "#30025"
+msgid "Best quality available"
+msgstr ""
+
+msgctxt "#30026"
+msgid "Listening"
+msgstr ""
+
+msgctxt "#30027"
+msgid "Yes"
+msgstr ""
+
+msgctxt "#30028"
+msgid "No"
+msgstr ""
+
+msgctxt "#30100"
+msgid "vinylrip engine command"
+msgstr ""
+
+msgctxt "#30101"
+msgid "Turntable (ALSA id, name or vendor:product; empty = detected USB card)"
+msgstr ""
+
+msgctxt "#30102"
+msgid "Offer the dialog when the turntable is detected"
+msgstr ""
+
+msgctxt "#30103"
+msgid "Listening output (ALSA device; empty = default)"
+msgstr ""
+
+msgctxt "#30104"
+msgid "Identification"
+msgstr ""
+
+msgctxt "#30105"
+msgid "Identification mode (auto / manual / off)"
+msgstr ""
+
+msgctxt "#30106"
+msgid "AcoustID application key"
+msgstr ""
+
+msgctxt "#30107"
+msgid "Contact (e-mail or URL for MusicBrainz)"
+msgstr ""
+
+msgctxt "#30108"
+msgid "Output"
+msgstr ""
+
+msgctxt "#30109"
+msgid "Music folder (empty = XDG Music folder)"
+msgstr ""
+
+msgctxt "#30110"
+msgid "Name template"
+msgstr ""
+
+msgctxt "#30111"
+msgid "Name template (multi-disc)"
+msgstr ""
+
+msgctxt "#30112"
+msgid "Reduced copy sample rate (0 = same)"
+msgstr ""
+
+msgctxt "#30113"
+msgid "Reduced copy bits (0 = same, 16 or 24)"
+msgstr ""
+
+msgctxt "#30114"
+msgid "Masters folder"
+msgstr ""
+
+msgctxt "#30115"
+msgid "Delete the raw file after verification"
+msgstr ""
+
+msgctxt "#30116"
+msgid "Delete the master after the reduced copy"
+msgstr ""
+
+msgctxt "#30117"
+msgid "Embed the cover"
+msgstr ""
+
+msgctxt "#30118"
+msgid "Write cover.jpg"
+msgstr ""
+
+msgctxt "#30119"
+msgid "Portable file names"
+msgstr ""
+
+msgctxt "#30120"
+msgid "General"
+msgstr ""

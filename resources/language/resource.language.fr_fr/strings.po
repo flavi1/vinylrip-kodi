@@ -1,0 +1,205 @@
+# Kodi Media Center language file
+msgid ""
+msgstr ""
+"Content-Type: text/plain; charset=UTF-8\n"
+"Language: fr_FR\n"
+
+msgctxt "#30000"
+msgid "Vinylrip"
+msgstr "Vinylrip"
+
+msgctxt "#30001"
+msgid "Record a disc"
+msgstr "Enregistrer un disque"
+
+msgctxt "#30002"
+msgid "Record a multi-disc album"
+msgstr "Enregistrer un album de plusieurs disques"
+
+msgctxt "#30003"
+msgid "Listen to the disc"
+msgstr "Écouter le disque"
+
+msgctxt "#30004"
+msgid "Recording quality"
+msgstr "Qualité d'enregistrement"
+
+msgctxt "#30005"
+msgid "Cancel"
+msgstr "Annuler"
+
+msgctxt "#30006"
+msgid "Number of discs"
+msgstr "Nombre de disques"
+
+msgctxt "#30007"
+msgid "Start recording side {0}"
+msgstr "Démarrer l'enregistrement de la face {0}"
+
+msgctxt "#30008"
+msgid "Finish side {0}"
+msgstr "Terminer la face {0}"
+
+msgctxt "#30009"
+msgid "Listen while recording"
+msgstr "Écouter pendant l'enregistrement"
+
+msgctxt "#30010"
+msgid "Stop listening"
+msgstr "Arrêter l'écoute"
+
+msgctxt "#30011"
+msgid "Next side"
+msgstr "Face suivante"
+
+msgctxt "#30012"
+msgid "Disc finished"
+msgstr "Disque terminé"
+
+msgctxt "#30013"
+msgid "Delete what was recorded?"
+msgstr "Supprimer ce qui a été enregistré ?"
+
+msgctxt "#30014"
+msgid "Turntable detected: {0}"
+msgstr "Platine détectée : {0}"
+
+msgctxt "#30015"
+msgid "What do you want to do?"
+msgstr "Que voulez-vous faire ?"
+
+msgctxt "#30016"
+msgid "Error"
+msgstr "Erreur"
+
+msgctxt "#30017"
+msgid "You can finish the work manually. The raw recordings are kept in: {0}"
+msgstr "Vous pouvez terminer le travail manuellement. Les enregistrements bruts sont conservés dans : {0}"
+
+msgctxt "#30018"
+msgid "Choose the album"
+msgstr "Choisir l'album"
+
+msgctxt "#30019"
+msgid "None of these"
+msgstr "Aucun de ces albums"
+
+msgctxt "#30020"
+msgid "Done: {0}"
+msgstr "Terminé : {0}"
+
+msgctxt "#30021"
+msgid "No turntable detected"
+msgstr "Aucune platine détectée"
+
+msgctxt "#30022"
+msgid "Processing…"
+msgstr "Traitement en cours…"
+
+msgctxt "#30023"
+msgid "vinylrip engine not found ({0}). Install it: pip install vinylrip"
+msgstr "Moteur vinylrip introuvable ({0}). Installez-le : pip install vinylrip"
+
+msgctxt "#30024"
+msgid "Sides to check: {0}"
+msgstr "Faces à vérifier : {0}"
+
+msgctxt "#30025"
+msgid "Best quality available"
+msgstr "Meilleure qualité disponible"
+
+msgctxt "#30026"
+msgid "Listening"
+msgstr "Écoute en cours"
+
+msgctxt "#30027"
+msgid "Yes"
+msgstr "Oui"
+
+msgctxt "#30028"
+msgid "No"
+msgstr "Non"
+
+msgctxt "#30100"
+msgid "vinylrip engine command"
+msgstr "Commande du moteur vinylrip"
+
+msgctxt "#30101"
+msgid "Turntable (ALSA id, name or vendor:product; empty = detected USB card)"
+msgstr "Platine (id ALSA, nom ou vendor:product ; vide = carte USB détectée)"
+
+msgctxt "#30102"
+msgid "Offer the dialog when the turntable is detected"
+msgstr "Proposer le dialogue quand la platine est détectée"
+
+msgctxt "#30103"
+msgid "Listening output (ALSA device; empty = default)"
+msgstr "Sortie d'écoute (périphérique ALSA ; vide = défaut)"
+
+msgctxt "#30104"
+msgid "Identification"
+msgstr "Identification"
+
+msgctxt "#30105"
+msgid "Identification mode (auto / manual / off)"
+msgstr "Mode d'identification (auto / manual / off)"
+
+msgctxt "#30106"
+msgid "AcoustID application key"
+msgstr "Clé d'application AcoustID"
+
+msgctxt "#30107"
+msgid "Contact (e-mail or URL for MusicBrainz)"
+msgstr "Contact (e-mail ou URL pour MusicBrainz)"
+
+msgctxt "#30108"
+msgid "Output"
+msgstr "Sortie"
+
+msgctxt "#30109"
+msgid "Music folder (empty = XDG Music folder)"
+msgstr "Dossier de la musique (vide = dossier Musique XDG)"
+
+msgctxt "#30110"
+msgid "Name template"
+msgstr "Modèle de nom"
+
+msgctxt "#30111"
+msgid "Name template (multi-disc)"
+msgstr "Modèle de nom (multi-disques)"
+
+msgctxt "#30112"
+msgid "Reduced copy sample rate (0 = same)"
+msgstr "Fréquence de la copie réduite (0 = identique)"
+
+msgctxt "#30113"
+msgid "Reduced copy bits (0 = same, 16 or 24)"
+msgstr "Bits de la copie réduite (0 = identique, 16 ou 24)"
+
+msgctxt "#30114"
+msgid "Masters folder"
+msgstr "Dossier des masters"
+
+msgctxt "#30115"
+msgid "Delete the raw file after verification"
+msgstr "Supprimer le brut après vérification"
+
+msgctxt "#30116"
+msgid "Delete the master after the reduced copy"
+msgstr "Supprimer le master après la copie réduite"
+
+msgctxt "#30117"
+msgid "Embed the cover"
+msgstr "Incruster la pochette"
+
+msgctxt "#30118"
+msgid "Write cover.jpg"
+msgstr "Écrire cover.jpg"
+
+msgctxt "#30119"
+msgid "Portable file names"
+msgstr "Noms de fichiers portables"
+
+msgctxt "#30120"
+msgid "General"
+msgstr "Général"

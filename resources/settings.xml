@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<settings>
+  <category label="30120">
+    <setting id="engine_path" type="text" label="30100" default="vinylrip"/>
+    <setting id="device" type="text" label="30101" default=""/>
+    <setting id="auto_popup" type="bool" label="30102" default="true"/>
+    <setting id="listen_device" type="text" label="30103" default=""/>
+    <setting id="quality" type="text" label="30004" default=""/>
+  </category>
+  <category label="30104">
+    <setting id="identify_mode" type="text" label="30105" default="auto"/>
+    <setting id="acoustid_key" type="text" label="30106" default=""/>
+    <setting id="contact" type="text" label="30107" default=""/>
+  </category>
+  <category label="30108">
+    <setting id="music_root" type="text" label="30109" default=""/>
+    <setting id="template" type="text" label="30110" default="{artiste_album}/{annee} - {album}/{piste:02d}. {titre}.flac"/>
+    <setting id="multidisc_template" type="text" label="30111" default="{artiste_album}/{annee} - {album}/CD{disque}/{piste:02d}. {titre}.flac"/>
+    <setting id="output_rate" type="text" label="30112" default="0"/>
+    <setting id="output_bits" type="text" label="30113" default="0"/>
+    <setting id="masters_root" type="text" label="30114" default=""/>
+    <setting id="delete_raw" type="bool" label="30115" default="true"/>
+    <setting id="delete_master_after_reduce" type="bool" label="30116" default="false"/>
+    <setting id="embed_cover" type="bool" label="30117" default="true"/>
+    <setting id="cover_file" type="bool" label="30118" default="true"/>
+    <setting id="portable_names" type="bool" label="30119" default="false"/>
+  </category>
+</settings>
