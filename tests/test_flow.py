@@ -175,3 +175,16 @@ class FlowTest(unittest.TestCase):
 
 if __name__ == "__main__":
     unittest.main()
+
+
+class AutoDeviceTest(unittest.TestCase):
+    def test_empty_setting_uses_detected_card(self):
+        from resources.lib import detect, flow
+        f, d, procs = make([1], {})
+        orig = detect.read_cards
+        detect.read_cards = lambda *a: [{"index": 3, "id": "PSHX500", "driver": "USB-Audio", "name": "PS-HX500", "detail": ""}]
+        try:
+            f.record(1)
+        finally:
+            detect.read_cards = orig
+        self.assertIn("PSHX500", procs[0].argv)

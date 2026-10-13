@@ -47,6 +47,13 @@ class Flow:
             lines.append(self.t(S_MANUAL, kept))
         self.dialog.ok(self.t(S_ERROR), "\n".join(lines))
 
+    def device(self):
+        """Configured device, else the detected card id (the engine needs an explicit one)."""
+        if self.setting("device").strip():
+            return self.setting("device").strip()
+        card = self.find_turntable()
+        return card["id"] if card else ""
+
     def find_turntable(self):
         cards = detect.matching(detect.read_cards(), self.setting("device"))
         return cards[0] if cards else None
@@ -86,7 +93,7 @@ class Flow:
 
     def _record(self, discs):
         try:
-            sess = self.engine().session(self.setting("device"), self.setting("quality"), discs)
+            sess = self.engine().session(self.device(), self.setting("quality"), discs)
         except EngineError as exc:
             self.error(self.t(S_NO_ENGINE, exc))
             return
@@ -197,7 +204,7 @@ class Flow:
     # -- listen / quality ---------------------------------------------------------------------------
     def listen(self):
         try:
-            proc = self.engine().listen(self.setting("device"), self.setting("quality"))
+            proc = self.engine().listen(self.device(), self.setting("quality"))
         except EngineError as exc:
             return self.error(self.t(S_NO_ENGINE, exc))
         try:
