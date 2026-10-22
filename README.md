@@ -21,7 +21,7 @@ et piloté en JSON-lignes (`vinylrip --json session`).
 
 ## Installation
 
-1. Installer le moteur : `pip install vinylrip` (ou depuis le dépôt) ; `arecord`, `aplay`, `fpcalc`
+1. Installer le moteur : dans un environnement virtuel (voir le README de vinylrip ; indiquer le chemin complet du binaire dans le réglage « Commande du moteur ») ; `arecord`, `aplay`, `fpcalc`
    (chromaprint) et `flac` ≥ 1.4 (ou ffmpeg) doivent être présents.
 2. Installer l'extension (zip de ce dépôt, dossier `plugin.audio.vinylrip`).
 3. Réglages : commande du moteur, platine, clé AcoustID, dossier de sortie, modèles de nom…
